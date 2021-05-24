@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace My\Builder\Way;
@@ -26,7 +27,7 @@ class ConstructorWay extends Way
         if ($constructor !== null) {
             $params = $constructor->getParameters();
 
-            return $reflectionClass->newInstance(...array_map(fn($param) => $map[$param->getName()], $params));
+            return $reflectionClass->newInstance(...array_map(fn ($param) => $map[$param->getName()], $params));
         }
 
         throw new BuildException("Not found constructor.");

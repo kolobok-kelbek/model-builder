@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace My\Builder\Builder;
@@ -46,7 +47,7 @@ class DefaultBuilder implements Builder
 
     public function build(int $useWay = Ways::ANY): object
     {
-        usort($this->ways, static fn(Way $a, Way $b): bool => $a->getPriority() > $b->getPriority());
+        usort($this->ways, static fn (Way $a, Way $b): bool => $a->getPriority() > $b->getPriority());
 
         $maps = $this->createFieldsMap($useWay);
         $subject = $this->buildSubject($maps);
