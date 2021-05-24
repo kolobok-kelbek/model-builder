@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Analyzer;
+namespace ModelBuilder\Analyzer;
 
-use My\Builder\Analyzer;
+use ModelBuilder\Analyzer;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionProperty;

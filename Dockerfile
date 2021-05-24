@@ -11,6 +11,7 @@ RUN useradd -s /bin/bash -d /home/worker/ -m -G sudo worker \
         curl \
         git \
         vim \
+    ## php extentions
     && docker-php-ext-install zip \
     ## install composer
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Way;
+namespace ModelBuilder\Way;
 
-use My\Builder\PreparerCollection;
+use ModelBuilder\PreparerCollection;
 
-abstract class Way implements \My\Builder\Way
+abstract class Way implements \ModelBuilder\Way
 {
     protected int $wayCode;
 

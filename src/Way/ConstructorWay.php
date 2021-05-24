@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Way;
+namespace ModelBuilder\Way;
 
-use My\Builder\Exception\BuildException;
+use ModelBuilder\Exception\BuildException;
 use ReflectionClass;
 use ReflectionException;
 

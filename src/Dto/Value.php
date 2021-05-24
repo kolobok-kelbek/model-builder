@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Dto;
+namespace ModelBuilder\Dto;
 
 class Value
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\PreparerCollection;
+namespace ModelBuilder\PreparerCollection;
 
-use My\Builder\Preparer;
-use My\Builder\PreparerCollection;
+use ModelBuilder\Preparer;
+use ModelBuilder\PreparerCollection;
 
 class DefaultPreparerCollection implements PreparerCollection
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\Builder;
+namespace ModelBuilder;
 
 interface Preparer
 {

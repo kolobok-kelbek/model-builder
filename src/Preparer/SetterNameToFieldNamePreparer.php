@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Preparer;
+namespace ModelBuilder\Preparer;
 
-use My\Builder\Preparer;
+use ModelBuilder\Preparer;
 
 class SetterNameToFieldNamePreparer implements Preparer
 {

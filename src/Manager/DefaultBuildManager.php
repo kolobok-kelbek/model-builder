@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Manager;
+namespace ModelBuilder\Manager;
 
 use JetBrains\PhpStorm\Pure;
-use My\Builder\Analyzer;
-use My\Builder\Builder;
-use My\Builder\BuildManager;
-use My\Builder\Way;
+use ModelBuilder\Analyzer;
+use ModelBuilder\Builder;
+use ModelBuilder\BuildManager;
+use ModelBuilder\Way;
 
 class DefaultBuildManager implements BuildManager
 {

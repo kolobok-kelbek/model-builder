@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Exception;
+namespace ModelBuilder\Exception;
 
 use Exception;
 use Throwable;

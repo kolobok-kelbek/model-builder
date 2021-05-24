@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace My\Builder\Builder;
+namespace ModelBuilder\Builder;
 
 use InvalidArgumentException;
-use My\Builder\Analyzer;
-use My\Builder\Builder;
-use My\Builder\Dto\Value;
-use My\Builder\Exception\BuildException;
-use My\Builder\Way;
-use My\Builder\Ways;
+use ModelBuilder\Analyzer;
+use ModelBuilder\Builder;
+use ModelBuilder\Dto\Value;
+use ModelBuilder\Exception\BuildException;
+use ModelBuilder\Way;
+use ModelBuilder\Ways;
 
 class DefaultBuilder implements Builder
 {
